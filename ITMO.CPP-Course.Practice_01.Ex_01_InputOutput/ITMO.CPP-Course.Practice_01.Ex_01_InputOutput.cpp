@@ -17,9 +17,9 @@ int main()
     std::string name2;
 
     std::cout << "Please, enter your full name: ";
-    std::getline (std::cin, name);
+    std::getline(std::cin, name);
     std::cout << "Hello, " << name << "!\n";
-     
+    
     std::cout << "What is your name? (we will use 'cin')\n" << std::endl;
     std::cin >> name2;
     std::cout << "Hello, " << name2 << "!\n";
