@@ -5,7 +5,7 @@
 
 #include <iostream>
 #include <string>
-using namespace std;
+
 
 int main()
 {
@@ -13,8 +13,16 @@ int main()
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
 
-    string name;
-    cout << "What is your name?\n";
-    cin >> name;
-    cout << "Hello, " << name << "!\n";
+    std::string name;
+    std::string name2;
+
+    std::cout << "Please, enter your full name: ";
+    std::getline (std::cin, name);
+    std::cout << "Hello, " << name << "!\n";
+     
+    std::cout << "What is your name? (we will use 'cin')\n" << std::endl;
+    std::cin >> name2;
+    std::cout << "Hello, " << name2 << "!\n";
+    
+    std::cout << "Вопрос НА - почему если сначала запускаем cin, то getline не получает строку?\n";
 }
