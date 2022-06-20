@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.CPP-Course.Practice_02
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.CPP-Course.Practice_02.Controls_Tasks.01_Check_the_year", "ITMO.CPP-Course.Practice_02.Controls_Tasks.01_Check_the_year\ITMO.CPP-Course.Practice_02.Controls_Tasks.01_Check_the_year.vcxproj", "{534BC8A3-FDEA-4A64-9C90-EF07FB5B46E3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.CPP-Course.Practice02.Control_Tasks.02_Biggest_Number_out_of_three", "ITMO.CPP-Course.Practice02.Control_Tasks.02_Biggest_Number_out_of_three\ITMO.CPP-Course.Practice02.Control_Tasks.02_Biggest_Number_out_of_three.vcxproj", "{DDC68E18-0F3C-4F8F-914E-F6B446AB25F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{534BC8A3-FDEA-4A64-9C90-EF07FB5B46E3}.Release|x64.Build.0 = Release|x64
 		{534BC8A3-FDEA-4A64-9C90-EF07FB5B46E3}.Release|x86.ActiveCfg = Release|Win32
 		{534BC8A3-FDEA-4A64-9C90-EF07FB5B46E3}.Release|x86.Build.0 = Release|Win32
+		{DDC68E18-0F3C-4F8F-914E-F6B446AB25F7}.Debug|x64.ActiveCfg = Debug|x64
+		{DDC68E18-0F3C-4F8F-914E-F6B446AB25F7}.Debug|x64.Build.0 = Debug|x64
+		{DDC68E18-0F3C-4F8F-914E-F6B446AB25F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{DDC68E18-0F3C-4F8F-914E-F6B446AB25F7}.Debug|x86.Build.0 = Debug|Win32
+		{DDC68E18-0F3C-4F8F-914E-F6B446AB25F7}.Release|x64.ActiveCfg = Release|x64
+		{DDC68E18-0F3C-4F8F-914E-F6B446AB25F7}.Release|x64.Build.0 = Release|x64
+		{DDC68E18-0F3C-4F8F-914E-F6B446AB25F7}.Release|x86.ActiveCfg = Release|Win32
+		{DDC68E18-0F3C-4F8F-914E-F6B446AB25F7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
