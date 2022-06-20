@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.CPP-Course.Practice_02
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.CPP-Course.Practice_02.Ex_03_Cycle_For", "ITMO.CPP-Course.Practice_02.Ex_03_Cycle_For\ITMO.CPP-Course.Practice_02.Ex_03_Cycle_For.vcxproj", "{6A91311C-3B5C-426E-A616-2F85FAC1E117}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.CPP-Course.Practice_02.Ex_04_Sum_on_interval", "ITMO.CPP-Course.Practice_02.Ex_04_Sum_on_interval\ITMO.CPP-Course.Practice_02.Ex_04_Sum_on_interval.vcxproj", "{A0BEA431-EA0D-4F98-AB24-0861F94256F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{6A91311C-3B5C-426E-A616-2F85FAC1E117}.Release|x64.Build.0 = Release|x64
 		{6A91311C-3B5C-426E-A616-2F85FAC1E117}.Release|x86.ActiveCfg = Release|Win32
 		{6A91311C-3B5C-426E-A616-2F85FAC1E117}.Release|x86.Build.0 = Release|Win32
+		{A0BEA431-EA0D-4F98-AB24-0861F94256F0}.Debug|x64.ActiveCfg = Debug|x64
+		{A0BEA431-EA0D-4F98-AB24-0861F94256F0}.Debug|x64.Build.0 = Debug|x64
+		{A0BEA431-EA0D-4F98-AB24-0861F94256F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{A0BEA431-EA0D-4F98-AB24-0861F94256F0}.Debug|x86.Build.0 = Debug|Win32
+		{A0BEA431-EA0D-4F98-AB24-0861F94256F0}.Release|x64.ActiveCfg = Release|x64
+		{A0BEA431-EA0D-4F98-AB24-0861F94256F0}.Release|x64.Build.0 = Release|x64
+		{A0BEA431-EA0D-4F98-AB24-0861F94256F0}.Release|x86.ActiveCfg = Release|Win32
+		{A0BEA431-EA0D-4F98-AB24-0861F94256F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
