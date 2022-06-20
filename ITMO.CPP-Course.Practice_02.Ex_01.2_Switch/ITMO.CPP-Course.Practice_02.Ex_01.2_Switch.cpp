@@ -20,18 +20,11 @@ int main()
 	{
 	case 'S':
 		std::cout << "Радио играть должно\n";
-		std::cout << "Колеса круглые\n";
-		std::cout << "Мощный двигатель\n";
-		break;
 	case 'V':
 		std::cout << "Кондиционер хочу\n";
-		std::cout << "Радио играть должно\n";
-		std::cout << "Колеса круглые\n";
-		std::cout << "Мощный двигатель\n";
-		break;
+
 	default:
 		std::cout << "Колеса круглые\n";
 		std::cout << "Мощный двигатель\n";
 	}
-
 }
