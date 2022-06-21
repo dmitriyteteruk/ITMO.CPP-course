@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.CPP-Course.Practice02.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.CPP-Course.Practice_02.Control_Tasks.03_Coin_Change", "ITMO.CPP-Course.Practice_02.Control_Tasks.03_Coin_Change\ITMO.CPP-Course.Practice_02.Control_Tasks.03_Coin_Change.vcxproj", "{E9606DCB-6257-44C8-86D0-97FFB87E4311}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.CPP-Course.Practice_02.Controls_Tasks.04_Shoot_contest.cpp", "ITMO.CPP-Course.Practice_02.Controls_Tasks.04_Shoot_contest.cpp\ITMO.CPP-Course.Practice_02.Controls_Tasks.04_Shoot_contest.cpp.vcxproj", "{70B3E540-292D-4C7B-AEB4-F3C0614D0782}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{E9606DCB-6257-44C8-86D0-97FFB87E4311}.Release|x64.Build.0 = Release|x64
 		{E9606DCB-6257-44C8-86D0-97FFB87E4311}.Release|x86.ActiveCfg = Release|Win32
 		{E9606DCB-6257-44C8-86D0-97FFB87E4311}.Release|x86.Build.0 = Release|Win32
+		{70B3E540-292D-4C7B-AEB4-F3C0614D0782}.Debug|x64.ActiveCfg = Debug|x64
+		{70B3E540-292D-4C7B-AEB4-F3C0614D0782}.Debug|x64.Build.0 = Debug|x64
+		{70B3E540-292D-4C7B-AEB4-F3C0614D0782}.Debug|x86.ActiveCfg = Debug|Win32
+		{70B3E540-292D-4C7B-AEB4-F3C0614D0782}.Debug|x86.Build.0 = Debug|Win32
+		{70B3E540-292D-4C7B-AEB4-F3C0614D0782}.Release|x64.ActiveCfg = Release|x64
+		{70B3E540-292D-4C7B-AEB4-F3C0614D0782}.Release|x64.Build.0 = Release|x64
+		{70B3E540-292D-4C7B-AEB4-F3C0614D0782}.Release|x86.ActiveCfg = Release|Win32
+		{70B3E540-292D-4C7B-AEB4-F3C0614D0782}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
