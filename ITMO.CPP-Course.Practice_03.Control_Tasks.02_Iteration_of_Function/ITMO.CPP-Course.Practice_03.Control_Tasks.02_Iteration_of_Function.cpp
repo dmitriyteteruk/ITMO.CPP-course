@@ -29,23 +29,13 @@ double cubeRoot(double n)
     return result;
 }
 
-double cubeRootIteration(double a)
+double cubeRootIteration(double n)
 {
-    double xi = a, // начальное значение y
-        xi1 = 0; // значение yi+1
-
-    while (true)
-    {
-        xi1 = 0.5 * (xi + 3 * a / (2 * xi * xi + a / xi)); // итерационная формула вычисления корня кубического
-
-        if (abs(xi1 - xi) < pow(10.0, -5.0)) // условие окончание итерации
-            break; // выход из цикла
-
-        xi = xi1; // сохраняем текущее значение y
-    }
-
-    std::cout << xi << std::endl;
-
-    system("pause");
-    return 0;
+        double x1 = 0;
+        double x2 = n;
+        while (abs(x1 - x2) > 0.000001) {
+            x1 = x2;
+            x2 = (n / (x1 * x1) + 2 * x1) / 3;
+        }
+        return x2;
 }

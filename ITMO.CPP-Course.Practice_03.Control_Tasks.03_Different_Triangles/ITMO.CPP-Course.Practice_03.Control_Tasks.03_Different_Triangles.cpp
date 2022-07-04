@@ -40,6 +40,6 @@ double fixedSidesTriangle(double a)
 double diffetentSidesTriangle(double a, double b, double c)
 {
     double p = (a + b + c) / 2;
-    double size = sqrt(p * (p - a) * (p - b) * (p - c));   // формулка треугольника с разной длиной сторон
+    double size = sqrt(p * (p - a) * (p - b) * (p - c));   // формула треугольника с разной длиной сторон
     return size;
 }
