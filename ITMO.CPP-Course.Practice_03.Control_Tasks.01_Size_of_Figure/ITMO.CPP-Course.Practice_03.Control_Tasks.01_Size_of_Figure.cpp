@@ -6,8 +6,8 @@
 
 double length(int xb, int xc, int yb, int yc)
 {
-    double l = sqrt(((xb - xc)*(xb - xc))+((yb - yc)*(yb - yc)));
-    return l;
+    double len = sqrt(((xb - xc)*(xb - xc))+((yb - yc)*(yb - yc)));
+    return len;
 }
 
 double size(double a, double b, double c)
