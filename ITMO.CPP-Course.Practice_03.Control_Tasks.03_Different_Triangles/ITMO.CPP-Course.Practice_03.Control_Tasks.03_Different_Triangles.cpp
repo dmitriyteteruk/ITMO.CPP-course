@@ -6,8 +6,8 @@
 #include <cmath>
 
 
-double fixedSidesTriangle(double);
-double diffetentSidesTriangle(double, double, double);
+double TriangleSize(double);
+double TriangleSize(double, double, double);
 
 int main()
 {
@@ -19,11 +19,11 @@ int main()
     std::cin >> a >> b >> c;
     if (a == b && b == c)
     {
-        std::cout << "Площадь равностороннего треугольника равна " << fixedSidesTriangle(a);
+        std::cout << "Площадь равностороннего треугольника равна " << TriangleSize(a);
     }
     else if (a != 0 && b != 0 && c != 0)
     {
-        std::cout << "Площадь треугольника равна " << diffetentSidesTriangle(a, b, c);
+        std::cout << "Площадь треугольника равна " << TriangleSize(a, b, c);
     }
     else 
     {
@@ -31,13 +31,13 @@ int main()
     }
 }
 
-double fixedSidesTriangle(double a)
+double TriangleSize(double a)
 {
     double size = pow(3, 1.0 / 3) / 4 * a * a;    // формула площади равностороннего треугольника
     return size;
 }
 
-double diffetentSidesTriangle(double a, double b, double c)
+double TriangleSize(double a, double b, double c)
 {
     double p = (a + b + c) / 2;
     double size = sqrt(p * (p - a) * (p - b) * (p - c));   // формула треугольника с разной длиной сторон
