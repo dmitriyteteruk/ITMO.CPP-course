@@ -12,6 +12,8 @@ int main()
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
 
+    bool (*from_f[2])(int, int) = { from_min, from_max };
+
     const int N = 10;
     int my_choose = 0;
     int Array[N] = { 9,8,7,6,1,2,3,5,4,9 };
@@ -21,7 +23,10 @@ int main()
     std::cin >> my_choose;
     std::cout << "\nИсходные данные: \t";
     
+    // пример передачи массива в функцию 
     show_array(Array, N);
+
+    bubble_sort(Array, N, (*from_f[my_choose - 1]));
 
     switch (my_choose)
     {
