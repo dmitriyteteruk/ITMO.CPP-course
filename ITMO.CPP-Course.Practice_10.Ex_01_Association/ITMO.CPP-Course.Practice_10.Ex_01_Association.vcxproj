@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{516b22dd-2360-45ba-9d8d-d52bc4e9cc33}</ProjectGuid>
-    <RootNamespace>ITMOCPPCoursePractice08Ex02Studentclasssplit</RootNamespace>
+    <ProjectGuid>{a8ee7ddd-fa3b-4d7e-b4cc-19fea82bfbe8}</ProjectGuid>
+    <RootNamespace>ITMOCPPCoursePractice10Ex01Association</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -92,7 +92,6 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;vcruntimed.lib;ucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -140,13 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="IdCard.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="student.h" />
-    <ClCompile Include="student.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="IdCard.h" />
+    <ClCompile Include="ITMO.CPP-Course.Practice_10.Ex_01_Association.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

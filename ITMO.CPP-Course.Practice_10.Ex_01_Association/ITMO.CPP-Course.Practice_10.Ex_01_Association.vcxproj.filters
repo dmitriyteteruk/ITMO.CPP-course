@@ -15,22 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="student.cpp">
+    <ClCompile Include="ITMO.CPP-Course.Practice_10.Ex_01_Association.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="student.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="IdCard.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="IdCard.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
