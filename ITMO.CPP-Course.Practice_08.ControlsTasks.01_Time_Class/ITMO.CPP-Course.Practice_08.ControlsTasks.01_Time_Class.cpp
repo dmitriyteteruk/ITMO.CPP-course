@@ -3,7 +3,9 @@
 
 class Time
 {
-    
+    friend Time operator+(const Time&, const double); // из контрольного 11.1
+    friend Time operator+(const double, const Time&); // из контрольного 11.1
+
 private:
         int hh, mm, ss;
     public:
@@ -66,6 +68,16 @@ private:
                 << " и " << t2.hh << ":" << t2.mm << ":" << t2.ss 
                 << " равна: " << hh << ":" << mm << ":" << ss << "\n";
         }
+
+        // перегрузка операции сложения 
+        Time operator+(const Time& time) const
+        {
+            Time sumTimes;
+            sumTimes.hh = sumTimes.hh + time.hh;
+            sumTimes.mm = sumTimes.mm = time.mm;
+            sumTimes.ss = sumTimes.ss = time.ss;
+            return sumTimes;
+        }
 };
 
 int main()
@@ -87,7 +99,8 @@ int main()
         std::cout << "Введите часы, минуты и секунды через пробел еще раз и нажмите Enter\n";
         std::cin >> hours >> minutes >> seconds;
         Time t3(hours, minutes, seconds);
-
+        Time sum = t1 + t2;
+        sum.ShowTime();
         // отображаем время через метод класса
         t1.ShowTime();
         t2.ShowTime();

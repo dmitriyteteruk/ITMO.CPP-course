@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{843714f8-f9e8-494b-b15f-338c1c4dc322}</ProjectGuid>
-    <RootNamespace>ITMOCPPCourseControlsTasksAddressBook</RootNamespace>
+    <ProjectGuid>{12d6a945-2ddf-4a6d-87ed-a6ef2621e38c}</ProjectGuid>
+    <RootNamespace>ITMOCPPCoursePractice11ControlTasks01Time</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,14 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ITMO.CPP-Course.ControlsTasks.Address_Book.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Discipline.h" />
-    <ClInclude Include="Friend.h" />
-    <ClInclude Include="Person.h" />
-    <ClInclude Include="Student.h" />
-    <ClInclude Include="Teacher.h" />
+    <ClCompile Include="ITMO.CPP-Course.Practice_11.ControlTasks.01.Time.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

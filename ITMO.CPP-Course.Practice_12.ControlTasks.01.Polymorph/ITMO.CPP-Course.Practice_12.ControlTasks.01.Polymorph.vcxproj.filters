@@ -15,24 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ITMO.CPP-Course.ControlsTasks.Address_Book.cpp">
+    <ClCompile Include="ITMO.CPP-Course.Practice_12.ControlTasks.01.Polymorph.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Discipline.h">
+    <ClInclude Include="human.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Friend.h">
+    <ClInclude Include="student.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Person.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Student.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Teacher.h">
+    <ClInclude Include="teacher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
